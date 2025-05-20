@@ -11,8 +11,9 @@ else:
     device = "cpu"
     print("Using CPU (no GPU acceleration available)")
 
-# Load a small subset of the dataset for testing
-dataset = load_dataset("trl-lib/tldr", split="train[:100]")
+# Load a small subset of a public dataset for testing
+# Using Hugging Face's public dataset
+dataset = load_dataset("imdb", split="train[:100]")
 
 # Reward function
 def reward_num_unique_chars(completions, **kwargs):

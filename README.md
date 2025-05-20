@@ -48,5 +48,6 @@ python test_grpo.py
 
 - Scripts automatically detect and use GPU if available
 - Both test scripts use Qwen/Qwen2-0.5B-Instruct model as an example
-- The TRL library requires PyTorch, Transformers, and other dependencies
+- Using TRL 0.17.0 which includes advanced trainers like GRPO, PPO, and more
 - These scripts are for testing environment compatibility only 
+- For GRPO to work correctly, you may need Hugging Face authentication 
