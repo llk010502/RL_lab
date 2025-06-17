@@ -1,0 +1,8 @@
+overall task
+- LoRA fine tune search-r1 on FinQA dataset, with answer reward, using verl
+currently have
+- verl training framework for search-r1
+need to modify
+- dataset
+- search engine
+- training parameter(LoRA)
